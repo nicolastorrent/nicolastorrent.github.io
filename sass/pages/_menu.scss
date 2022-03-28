@@ -1,0 +1,53 @@
+.menu{
+    margin-top: -50px;
+    padding-bottom: 50px;
+    z-index: 1;
+    position: relative;
+    border-radius: 30px;
+    background-color: $colour-light_gray;
+}
+
+.menu__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    h2{
+        font-family: 'Shrikhand', cursive;
+        font-size: 28px;
+        font-weight: 300;
+    }
+}
+
+.restaurant__heart{
+    @include heart;
+}
+
+h2{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.menu__box{
+    @include box-menu;
+    
+    &:hover .menu__icon-slide{
+        display: inline;
+        animation: menu__icon-slideright 500ms;
+        
+        i{
+            animation: turn 500ms;
+        }
+    }
+}
+
+.menu__box{
+    &:hover .menu__price{
+        animation: menu__icon-slideright 500ms;
+        
+    }
+    &:hover .text{
+        animation: menu__icon-slider-text 500ms;
+    }
+}

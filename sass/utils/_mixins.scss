@@ -1,0 +1,132 @@
+@mixin btn{
+    margin: auto;
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, $colour-secondaire, $colour-primary);
+    box-shadow: 3px 3px 10px rgb(177, 177, 177);
+
+    &:hover{
+        background: linear-gradient(to bottom right, #f888d8, #995de2);
+        box-shadow: 3px 3px 10px rgb(148, 148, 148);
+    }
+}
+
+@mixin box-shadow {
+    box-shadow: 0px 2px 10px rgb(206, 206, 206);
+}
+
+@mixin heart{
+    padding-right: 50px;
+    padding-bottom: 40px;
+
+    i{
+        position: absolute;
+    }
+
+    .fa-solid{
+        color: transparent;
+        background-image: linear-gradient(to bottom left, $colour-primary, $colour-secondaire);        
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: 700ms;
+        
+
+        
+        &:active{
+            opacity: 1;     
+        }
+    }
+}
+
+@mixin box-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 17px;
+    @include box-shadow;
+
+    h3{
+        margin: 12px 0px 2px 12px;
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    p{
+        margin: 0px 0px 12px 12px;
+        font-size: 16px;
+        font-weight: 300;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .menu__entitled{
+        white-space: nowrap;
+        overflow: hidden;
+    }
+.block__check{
+    display: flex;
+}
+
+.menu__price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+}
+
+.menu__icon-slide{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 20px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-color: $colour-tertiary;
+    animation: menu__icon-slideright 500ms;
+
+    i{
+        font-size: 23px;
+        color: #fff;
+    }
+}
+
+@mixin footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+
+    h2{
+        font-family: 'Shrikhand', cursive;
+        font-weight: 300;
+        margin-top: 0px;
+    }
+
+    ul{
+        list-style-type: none;
+        align-items: flex-start;
+        display: contents;
+
+        li{
+            line-height: 25px;
+        }
+
+        i{
+            width: 15px;
+            margin-right: 10px;
+            padding: auto;
+
+        }
+    }
+}
+
+

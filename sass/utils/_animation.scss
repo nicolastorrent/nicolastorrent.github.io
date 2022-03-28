@@ -1,0 +1,24 @@
+@keyframes menu__icon-slider-text {
+    0%   { margin-right: -70px; }
+    100% { margin-right: 0; }
+    }
+        
+
+@keyframes menu__icon-slideright {
+    from {
+        transform: translateX(55px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+@keyframes turn {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

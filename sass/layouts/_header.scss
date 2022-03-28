@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+
+    h1 img{
+        width: 45%;
+     }
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ img{
+    width: 100%;
+    object-fit: cover;
+}
