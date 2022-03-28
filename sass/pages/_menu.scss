@@ -34,20 +34,61 @@ h2{
     
     &:hover .menu__icon-slide{
         display: inline;
-        animation: menu__icon-slideright 500ms;
+        animation: slide-right 500ms;
         
         i{
             animation: turn 500ms;
         }
     }
-}
-
-.menu__box{
     &:hover .menu__price{
-        animation: menu__icon-slideright 500ms;
+        animation: slide-right 500ms;
         
     }
     &:hover .text{
-        animation: menu__icon-slider-text 500ms;
+        animation: slider-text 500ms;
     }
 }
+
+.appearance1{
+    animation: appearance-box 1s forwards 200ms;
+}
+.appearance2{
+    animation: appearance-box 1s forwards 400ms;
+}
+
+.appearance3{
+    animation: appearance-box 1s forwards 600ms;
+}
+
+.appearance4{
+    animation: appearance-box 1s forwards 800ms;
+}
+.appearance5{
+    animation: appearance-box 1s forwards 1000ms;
+}
+
+.appearance6{
+    animation: appearance-box 1s forwards 1200ms;
+}
+
+.appearance7{
+    animation: appearance-box 1s forwards 1400ms;
+}
+.appearance8{
+    animation: appearance-box 1s forwards 1500ms;
+}
+
+.appearance9{
+    animation: appearance-box 1s forwards 1600ms;
+}
+/*
+.menu__box{
+    &:hover .menu__price{
+        animation: slide-right 500ms;
+        
+    }
+    &:hover .text{
+        animation: slider-text 500ms;
+    }
+}
+*/
