@@ -249,7 +249,6 @@ body {
 section {
   padding-left: 5%;
   padding-right: 5%;
-  background-color: whitesmoke;
 }
 
 a {
@@ -257,22 +256,32 @@ a {
 }
 
 .header {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 25% 50%;
-      grid-template-columns: 25% 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100px;
 }
 
 .header i {
+  position: absolute;
+  left: 5%;
+  top: 42%;
   color: black;
-  margin-left: 18%;
 }
 
-.header img {
-  width: 100%;
+.header h1 {
+  text-align: center;
+}
+
+.header h1 img {
+  width: 50%;
 }
 
 .header__photo img {
@@ -287,7 +296,7 @@ a {
   padding-bottom: 50px;
   z-index: 1;
   position: relative;
-  border-radius: 30px;
+  border-radius: 45px;
   background-color: whitesmoke;
 }
 
