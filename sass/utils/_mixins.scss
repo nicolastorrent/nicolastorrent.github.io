@@ -1,5 +1,9 @@
 @mixin btn{
     margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px;
     border-radius: 25px;
     background: linear-gradient(to bottom right, $colour-secondaire, $colour-primary);
     box-shadow: 3px 3px 10px rgb(177, 177, 177);
@@ -41,12 +45,14 @@
 @mixin box-menu {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 65px;
     overflow: hidden;
     background-color: white;
     margin-bottom: 25px;
     border-radius: 17px;
     @include box-shadow;
+    opacity: 0;
+    
 
     h3{
         margin: 12px 0px 2px 12px;
@@ -67,7 +73,7 @@
         white-space: nowrap;
         overflow: hidden;
     }
-.block__check{
+.menu__block-check{
     display: flex;
 }
 
@@ -76,7 +82,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 20px;
-}
 }
 
 .menu__icon-slide{
@@ -89,13 +94,16 @@
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
     background-color: $colour-tertiary;
-    animation: menu__icon-slideright 500ms;
+    animation: slide-right 500ms;
 
     i{
         font-size: 23px;
         color: #fff;
     }
 }
+
+}
+
 
 @mixin footer {
     padding-left: 5%;
@@ -123,8 +131,6 @@
         i{
             width: 15px;
             margin-right: 10px;
-            padding: auto;
-
         }
     }
 }
