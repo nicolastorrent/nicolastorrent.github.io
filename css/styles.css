@@ -310,46 +310,24 @@ nav p {
           animation: rebound 2000ms;
 }
 
-@-webkit-keyframes slider-text {
-  0% {
-    margin-right: -70px;
-  }
-  100% {
-    margin-right: 0;
-  }
+/*@keyframes slider-text {
+    0%{
+        margin-right: -70px; 
+    }
+    100%{
+        margin-right: 0; 
+    }
 }
-
-@keyframes slider-text {
-  0% {
-    margin-right: -70px;
-  }
-  100% {
-    margin-right: 0;
-  }
-}
-
-@-webkit-keyframes slide-right {
-  from {
-    -webkit-transform: translateX(55px);
-            transform: translateX(55px);
-  }
-  to {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
+        
 
 @keyframes slide-right {
-  from {
-    -webkit-transform: translateX(55px);
-            transform: translateX(55px);
-  }
-  to {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
+    from{
+        transform: translateX(55px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}*/
 @-webkit-keyframes turn {
   from {
     -webkit-transform: rotate(0deg);
@@ -360,7 +338,6 @@ nav p {
             transform: rotate(360deg);
   }
 }
-
 @keyframes turn {
   from {
     -webkit-transform: rotate(0deg);

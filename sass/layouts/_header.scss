@@ -1,19 +1,19 @@
 
 
 .header{
-    display: flex;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 50%;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
 
     i{
         color: black;
+        margin-left: 18%;
     }
     
     img{
-        width: 45%;
-     }
+        width: 100%;
+    }
+    
 }
 
 .header__photo img{
