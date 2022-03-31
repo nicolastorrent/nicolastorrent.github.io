@@ -44,41 +44,63 @@ h2{
         animation: slide-right 500ms;
         
     }
-    &:hover .text{
+    &:hover .menu__entitled {
         animation: slider-text 500ms;
     }
 }
 
-.appearance1{
+.menu__box--adjust{
+    height: 80px;
+
+    .menu__icon-slide{
+        padding-top: 30px;
+    }
+}
+
+
+.menu__underline{
+    border-bottom: 3px solid $colour-tertiary;
+    margin-bottom: 14.11px;
+    width: 43px;
+
+    h2{
+        margin-bottom: 4px;
+    }
+}
+
+.menu__appearance1{
     animation: appearance-box 1s forwards 200ms;
 }
-.appearance2{
+.menu__appearance2{
     animation: appearance-box 1s forwards 400ms;
 }
 
-.appearance3{
+.menu__appearance3{
     animation: appearance-box 1s forwards 600ms;
 }
 
-.appearance4{
+.menu__appearance4{
     animation: appearance-box 1s forwards 800ms;
 }
-.appearance5{
+.menu__appearance5{
     animation: appearance-box 1s forwards 1000ms;
 }
 
-.appearance6{
+.menu__appearance6{
     animation: appearance-box 1s forwards 1200ms;
 }
 
-.appearance7{
+.menu__appearance7{
     animation: appearance-box 1s forwards 1400ms;
 }
-.appearance8{
+.menu__appearance8{
     animation: appearance-box 1s forwards 1500ms;
 }
 
-.appearance9{
+.menu__appearance9{
+    animation: appearance-box 1s forwards 1600ms;
+}
+.menu__menu__appearance10{
     animation: appearance-box 1s forwards 1600ms;
 }
 /*

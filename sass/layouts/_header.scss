@@ -1,19 +1,27 @@
-header{
-    text-align: center;
 
-    h1 img{
+
+.header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    i{
+        color: black;
+    }
+    
+    img{
         width: 45%;
      }
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
- img{
+.header__photo img{
     width: 100%;
+    height: 250px;
     object-fit: cover;
 }
+
+
+//----------------------------------------------------------------------- home
+
