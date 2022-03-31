@@ -79,18 +79,16 @@
 
 .menu__price{
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
     margin-right: 20px;
 }
 
 .menu__icon-slide{
-    justify-content: center;
+    display: grid;
     align-items: center;
-    margin-right: -60px;
+    margin-right: -59px;
     padding-left: 18px;
     padding-right: 18px;
-    padding-top: 20px;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
     background-color: $colour-tertiary;
