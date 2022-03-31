@@ -85,16 +85,16 @@
 }
 
 .menu__icon-slide{
-    display: none;
     justify-content: center;
     align-items: center;
+    margin-right: -60px;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 20px;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
     background-color: $colour-tertiary;
-    animation: slide-right 500ms;
+    transition: all 500ms;
 
     i{
         font-size: 23px;

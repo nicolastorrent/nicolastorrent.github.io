@@ -33,19 +33,11 @@ h2{
     @include box-menu;
     
     &:active .menu__icon-slide{
-        display: inline;
-        animation: slide-right ;
+        margin-right: 0;
         
         i{
-            animation: turn s;
+            animation: turn 500ms;
         }
-    }
-    &:active .menu__price{
-        animation: slide-right ;
-        
-    }
-    &:active .menu__entitled {
-        animation: slider-text ;
     }
 }
 
@@ -53,6 +45,7 @@ h2{
     height: 80px;
 
     .menu__icon-slide{
+        animation-play-state: running;
         padding-top: 30px;
     }
 }
