@@ -32,20 +32,20 @@ h2{
 .menu__box{
     @include box-menu;
     
-    &:hover .menu__icon-slide{
+    &:active .menu__icon-slide{
         display: inline;
-        animation: slide-right 500ms;
+        animation: slide-right ;
         
         i{
-            animation: turn 500ms;
+            animation: turn s;
         }
     }
-    &:hover .menu__price{
-        animation: slide-right 500ms;
+    &:active .menu__price{
+        animation: slide-right ;
         
     }
-    &:hover .menu__entitled {
-        animation: slider-text 500ms;
+    &:active .menu__entitled {
+        animation: slider-text ;
     }
 }
 
@@ -67,40 +67,34 @@ h2{
         margin-bottom: 4px;
     }
 }
-
 .menu__appearance1{
     animation: appearance-box 1s forwards 200ms;
 }
 .menu__appearance2{
     animation: appearance-box 1s forwards 400ms;
 }
-
 .menu__appearance3{
     animation: appearance-box 1s forwards 600ms;
 }
-
 .menu__appearance4{
     animation: appearance-box 1s forwards 800ms;
 }
 .menu__appearance5{
     animation: appearance-box 1s forwards 1000ms;
 }
-
 .menu__appearance6{
     animation: appearance-box 1s forwards 1200ms;
 }
-
 .menu__appearance7{
     animation: appearance-box 1s forwards 1400ms;
 }
 .menu__appearance8{
     animation: appearance-box 1s forwards 1500ms;
 }
-
 .menu__appearance9{
     animation: appearance-box 1s forwards 1600ms;
 }
-.menu__menu__appearance10{
+.menu__appearance10{
     animation: appearance-box 1s forwards 1600ms;
 }
 /*
