@@ -260,24 +260,26 @@ a {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100px;
+  height: 80px;
 }
 
 .header i {
   position: absolute;
+  font-size: 20px;
+  height: 50%;
   left: 5%;
-  top: 42%;
+  top: 35%;
   color: black;
 }
 
 .header h1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header h1 img {
