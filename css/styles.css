@@ -149,6 +149,7 @@
   background: linear-gradient(to bottom right, #f888d8, #995de2);
   -webkit-box-shadow: 3px 3px 10px #949494;
           box-shadow: 3px 3px 10px #949494;
+  cursor: pointer;
 }
 
 body {
@@ -174,16 +175,16 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   height: 80px;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 1100ms;
+          transition-duration: 1100ms;
 }
 
 header img {
   width: 200px;
   position: relative;
   top: 5px;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 1100ms;
+          transition-duration: 1100ms;
 }
 
 h2 {
@@ -258,23 +259,33 @@ section {
 }
 
 .operation__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding-left: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .operation__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .operation__line {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 93%;
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .operation__line {
+    width: 30%;
+    text-align: center;
+  }
 }
 
 .operation__number {
@@ -282,6 +293,7 @@ section {
   background-color: #9356DC;
   color: #fff;
   position: absolute;
+  top: 1px;
   border-radius: 500px;
   padding: 2px 7px 2px 7px;
   -webkit-transform: translate(-55%);
@@ -289,6 +301,12 @@ section {
 }
 
 .operation__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   padding: 10px;
   margin-top: 25px;
@@ -424,7 +442,7 @@ section {
   opacity: 1;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1100px) {
   .restaurant__heart .fa-solid:hover {
     opacity: 1;
   }
@@ -491,7 +509,7 @@ section {
           animation: rebound 2000ms;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1100px) {
   .page-home {
     display: -ms-grid;
     display: grid;

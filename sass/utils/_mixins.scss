@@ -11,6 +11,7 @@
     &:hover{
         background: linear-gradient(to bottom right, #f888d8, #995de2);
         box-shadow: 3px 3px 10px rgb(148, 148, 148);
+        cursor: pointer;
     }
 }
 
@@ -39,7 +40,7 @@
         &:active{
             opacity: 1;     
         }
-        @media(min-width:993px){
+        @media(min-width:1100px){
             &:hover{
                 opacity: 1;
             }

@@ -18,7 +18,7 @@
         font-family: 'Shrikhand', cursive;
         font-size: 28px;
         font-weight: 300;
-        transition-duration: 1000ms;
+        transition-duration: 1100ms;
         @media (min-width: 768px){
             font-size: 40px;
         }
@@ -44,7 +44,7 @@ h2{
             animation: turn 500ms;
         }
     }
-    @media(min-width: 993px){
+    @media(min-width: 1100px){
         &:hover .menu__icon-slide{
             margin-right: 0;
             
@@ -89,7 +89,7 @@ h2{
     animation: appearance-box 1s forwards 800ms;
 }
 .menu__appearance5{
-    animation: appearance-box 1s forwards 1000ms;
+    animation: appearance-box 1s forwards 1100ms;
 }
 .menu__appearance6{
     animation: appearance-box 1s forwards 1200ms;
@@ -107,12 +107,12 @@ h2{
     animation: appearance-box 1s forwards 1600ms;
 }
 
-@media (min-width: 993px){
+@media (min-width: 1100px){
     .menu__list{
         display: grid;
         grid-template-columns: 50% 50%;
 
-        .btn-menu{
+        .btn-menu, a{
             display: grid;
             align-items: center;
         }

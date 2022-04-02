@@ -67,12 +67,13 @@
   background: linear-gradient(to bottom right, #f888d8, #995de2);
   -webkit-box-shadow: 3px 3px 10px #949494;
           box-shadow: 3px 3px 10px #949494;
+  cursor: pointer;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1100px) {
   .btn-menu__order {
-    -webkit-transition-duration: 1000ms;
-            transition-duration: 1000ms;
+    -webkit-transition-duration: 1100ms;
+            transition-duration: 1100ms;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -127,8 +128,8 @@ header i {
 header h1 {
   position: relative;
   top: 5px;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 1100ms;
+          transition-duration: 1100ms;
 }
 
 @media (min-width: 768px) {
@@ -139,8 +140,8 @@ header h1 {
 
 header h1 img {
   width: 200px;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 1100ms;
+          transition-duration: 1100ms;
 }
 
 @media (min-width: 768px) {
@@ -154,8 +155,8 @@ header h1 img {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 1100ms;
+          transition-duration: 1100ms;
 }
 
 @media (min-width: 768px) {
@@ -189,8 +190,8 @@ header h1 img {
   font-family: 'Shrikhand', cursive;
   font-size: 28px;
   font-weight: 300;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 1100ms;
+          transition-duration: 1100ms;
 }
 
 @media (min-width: 768px) {
@@ -223,7 +224,7 @@ header h1 img {
   opacity: 1;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1100px) {
   .restaurant__heart .fa-solid:hover {
     opacity: 1;
   }
@@ -349,7 +350,7 @@ h2 {
           animation: turn 500ms;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1100px) {
   .menu__box:hover .menu__icon-slide {
     margin-right: 0;
   }
@@ -404,8 +405,8 @@ h2 {
 }
 
 .menu__appearance5 {
-  -webkit-animation: appearance-box 1s forwards 1000ms;
-          animation: appearance-box 1s forwards 1000ms;
+  -webkit-animation: appearance-box 1s forwards 1100ms;
+          animation: appearance-box 1s forwards 1100ms;
 }
 
 .menu__appearance6 {
@@ -433,14 +434,14 @@ h2 {
           animation: appearance-box 1s forwards 1600ms;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1100px) {
   .menu__list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
   }
-  .menu__list .btn-menu {
+  .menu__list .btn-menu, .menu__list a {
     display: -ms-grid;
     display: grid;
     -webkit-box-align: center;
