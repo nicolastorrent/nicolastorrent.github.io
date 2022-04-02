@@ -1,0 +1,16 @@
+.btn-menu__order{
+    @include btn;
+    width: 150px;
+    margin-top: 50px;
+    text-align: center;  
+    @media (min-width: 993px){
+        transition-duration: 1000ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 45px;
+        width: 170px;
+        height: 140px;
+        font-size: 28px;
+    }
+}

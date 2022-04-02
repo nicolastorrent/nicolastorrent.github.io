@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    transition-duration: 1000ms;
+    img{
+        width: 200px;
+        position: relative;
+        top: 5px;
+        transition-duration: 1000ms;
+        
+    }
+}

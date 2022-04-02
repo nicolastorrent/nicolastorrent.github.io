@@ -15,7 +15,7 @@
 }
 
 @mixin box-shadow {
-    box-shadow: 0px 2px 10px rgb(206, 206, 206);
+    box-shadow: 0 2px 10px rgb(206, 206, 206);
 }
 
 @mixin heart{
@@ -39,6 +39,11 @@
         &:active{
             opacity: 1;     
         }
+        @media(min-width:993px){
+            &:hover{
+                opacity: 1;
+            }
+        }
     }
 }
 
@@ -52,21 +57,33 @@
     border-radius: 17px;
     @include box-shadow;
     opacity: 0;
+    transition-duration: 1000ms;
+    @media (min-width: 768px){
+        height: 75px;
+    }
     
 
     h3{
-        margin: 12px 0px 2px 12px;
+        margin: 12px 0 2px 12px;
         font-size: 16px;
         overflow: hidden;
         text-overflow: ellipsis;
+        transition-duration: 1000ms;
+        @media (min-width: 768px){
+            font-size: 18.46px;
+        }
     }
 
     p{
-        margin: 0px 0px 12px 12px;
+        margin: 0 0 12px 12px;
         font-size: 16px;
         font-weight: 300;
         overflow: hidden;
         text-overflow: ellipsis;
+        transition-duration: 1000ms;
+        @media (min-width: 768px){
+            font-size: 18.46px;
+        }
     }
 
     .menu__entitled{
@@ -81,6 +98,10 @@
     display: flex;
     align-items: flex-end;
     margin-right: 20px;
+    transition-duration: 1000ms;
+    @media (min-width: 768px){
+        font-size: 23.8px;
+    }
 }
 
 .menu__icon-slide{
@@ -104,23 +125,35 @@
 
 
 @mixin footer {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 40px;
-    padding-top: 20px;
+    padding: 20px 5% 40px 5%;
     background-color: rgb(48, 48, 48);
     color: #fff;
+    @media (min-width: 768px){
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+    }
 
     h2{
         font-family: 'Shrikhand', cursive;
         font-weight: 300;
-        margin-top: 0px;
+        margin-top: 0;
+        @media (min-width: 768px){
+            text-align: center;
+            font-size: 30px;
+            padding-top: 20px;
+        }
     }
 
     ul{
         list-style-type: none;
         align-items: flex-start;
         display: contents;
+        @media (min-width: 768px){
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
 
         li{
             line-height: 25px;
