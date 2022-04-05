@@ -132,7 +132,7 @@
     @media (min-width: 768px){
         display: flex;
         flex-direction: column-reverse;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
 
     h2{
@@ -142,7 +142,7 @@
         @media (min-width: 768px){
             text-align: center;
             font-size: 30px;
-            padding-top: 20px;
+            padding-top: 15px;
         }
     }
 
@@ -153,7 +153,7 @@
         @media (min-width: 768px){
             display: flex;
             justify-content: space-between;
-            text-align: center;
+            padding-left: 0;
         }
 
         li{

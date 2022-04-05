@@ -465,7 +465,7 @@ footer {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 }
 
@@ -479,7 +479,7 @@ footer h2 {
   footer h2 {
     text-align: center;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
 
@@ -499,7 +499,7 @@ footer ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    text-align: center;
+    padding-left: 0;
   }
 }
 

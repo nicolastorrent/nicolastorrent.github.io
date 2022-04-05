@@ -536,6 +536,7 @@ section {
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
+    min-height: 100vh;
   }
   .block-restaurant h2 {
     padding-top: 0;
@@ -562,7 +563,7 @@ footer {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 }
 
@@ -576,7 +577,7 @@ footer h2 {
   footer h2 {
     text-align: center;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
 
@@ -596,7 +597,7 @@ footer ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    text-align: center;
+    padding-left: 0;
   }
 }
 
