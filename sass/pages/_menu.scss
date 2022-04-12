@@ -3,8 +3,10 @@
     padding-bottom: 50px;
     z-index: 1;
     position: relative;
-    border-radius: 45px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
     background-color: $colour-light_gray;
+    min-height: 100vh;
 }
 
 .menu__title{
