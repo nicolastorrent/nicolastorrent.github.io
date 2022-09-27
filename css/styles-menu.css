@@ -63,8 +63,8 @@
 }
 
 .btn-menu__order:hover {
-  background: -webkit-gradient(linear, left top, right bottom, from(#f888d8), to(#995de2));
-  background: linear-gradient(to bottom right, #f888d8, #995de2);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ffade6), to(#a673e5));
+  background: linear-gradient(to bottom right, #ffade6, #a673e5);
   -webkit-box-shadow: 3px 3px 10px #949494;
           box-shadow: 3px 3px 10px #949494;
   cursor: pointer;

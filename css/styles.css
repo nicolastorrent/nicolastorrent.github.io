@@ -145,8 +145,8 @@
 }
 
 .nav__btn:hover {
-  background: -webkit-gradient(linear, left top, right bottom, from(#f888d8), to(#995de2));
-  background: linear-gradient(to bottom right, #f888d8, #995de2);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ffade6), to(#a673e5));
+  background: linear-gradient(to bottom right, #ffade6, #a673e5);
   -webkit-box-shadow: 3px 3px 10px #949494;
           box-shadow: 3px 3px 10px #949494;
   cursor: pointer;
@@ -315,6 +315,10 @@ section {
   background-color: #9256dc27;
   -webkit-box-shadow: 0 2px 10px #aaaaaa;
           box-shadow: 0 2px 10px #aaaaaa;
+}
+
+.operation__box:hover .fa-solid {
+  color: #9356DC;
 }
 
 .operation__box p {
