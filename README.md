@@ -1,3 +1,7 @@
+### info commit "modification" n°40
+- Au survol sur un élément de fonctionnement, l'icone passe au violet;
+- l'effet sur les boutons accentué;
+
 # nicolastorrent.github.io
 
 ## OHMYFOOD Projet 3 Openclassrooms
