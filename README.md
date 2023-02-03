@@ -1,4 +1,4 @@
-# ![left 100%](https://github.com/thierry-laval/archives/blob/master/images/Logo_OpenClassrooms.png?raw=true) [OpenClassrooms - Web Developer - Make a web page dynamic with CSS animations](https://openclassrooms.com/fr/paths/556/projects/637/assignment)
+# ![left 100%](https://github.com/thierry-laval/archives/blob/master/images/Logo_OpenClassrooms.png?raw=true) [OpenClassrooms - Web Developer - Make a web page dynamic with CSS animations](https://openclassrooms.com/en/paths/556/projects/637/assignment)
 
 ## OHMYFOOD Project 3 Openclassrooms
 *Ohmyfood! is a young startup that would like to impose itself on the catering market.*
